@@ -1,0 +1,14 @@
+{
+  "name": "arene-des-jeux",
+  "version": "2.0.0",
+  "description": "Arène des jeux : Puissance 4, Dames, Échecs, Ludo et Pierre-Feuille-Ciseaux, en ligne, contre un joueur ou l'ordinateur (3 niveaux)",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "socket.io": "^4.8.1"
+  }
+}
